@@ -160,7 +160,7 @@ def menu():
 def pilih():
     zedd = raw_input('\x1b[1;91m-\xe2\x96\xba\x1b[1;97m ')
     if zedd == '':
-        print '\x1b[1;91m[!] Jangan kosong'
+        print '\x1b[1;91m[!] Ulah kosong'
         pilih()
     else:
         if zedd == '1':
@@ -273,7 +273,7 @@ def menu_hack():
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     print '\x1b[1;37;40m1. Mini Hack Facebook(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m2. Multi Bruteforce Facebook'
-    print '\x1b[1;37;40m3. Super Multi Bruteforce Facebook'
+    print '\x1b[1;37;40m3. Super Multi Bruteforce Facebook Work'
     print '\x1b[1;37;40m4. BruteForce(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m5. Yahoo Checker'
     print '\x1b[1;37;40m6. Ambil id/email/hp'
